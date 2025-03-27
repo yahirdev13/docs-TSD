@@ -1,0 +1,23 @@
+<TRNXML Version="1.0.0">
+<Dategmtime TimeZone="UTC">08062014 04:23 PM</Dategmtime>
+<Sender>
+<SenderID>TSD01</SenderID>
+</Sender>
+<Recipient>
+<RecipientID>TRN</RecipientID>
+</Recipient>
+<TradingPartner>
+<TradingPartnerCode>WEB01</TradingPartnerCode>
+</TradingPartner>
+<Customer>
+<CustomerNumber>TEST1</CustomerNumber>
+<Passcode>TEST1</Passcode>
+</Customer>
+<Message>
+<MessageID>REQLOC</MessageID>
+<MessageDesc>Request Locations</MessageDesc>
+</Message>
+<PayLoad>
+<ChainCode>TEST1</ChainCode>
+</PayLoad>
+</TRNXML>
