@@ -1,0 +1,88 @@
+<PRE><TRNXML Version = "1.0.0">
+<DateTimeStamp TimeZone="ET">12/11/2015 16:32:21</DateTimeStamp>
+<Sender><SenderID>TRN</SenderID><SenderName>Transportation Reservation System,Inc.</SenderName></Sender>
+<Recipient><RecipientID>TSD01</RecipientID><RecipientName></RecipientName></Recipient>
+<TradingPartner><TradingPartnerCode>WEB01</TradingPartnerCode><TradingPartnerName></TradingPartnerName></TradingPartner>
+<Customer><CustomerNumber>TEST1</CustomerNumber><CustomerName></CustomerName>
+</Customer>
+<Message>
+<MessageID>RSPBIL</MessageID>
+<MessageDescription>Respond With Charges</MessageDescription>
+</Message>
+<Payload>
+<RateCompanyID>BOBCOMP</RateCompanyID>
+<RateCompanyName>Bob`s company</RateCompanyName>
+<MileageUnit>MI</MileageUnit>
+<RatePlan>DAILY</RatePlan>
+<ClassNotes>this is a quoted response.</ClassNotes>
+<SimilarText>COMPACT OR SIMILAR</SimilarText>
+<RateIncludes></RateIncludes>
+<PackageNotes></PackageNotes>
+<RentalDays>4</RentalDays>
+<RateCharge>234.76</RateCharge>
+<RatePlusLate>234.76</RatePlusLate>
+<TotalCharges>319.01</TotalCharges>
+<TotalTaxes>53.59</TotalTaxes>
+<TotalExtras>24.77</TotalExtras>
+<TotalFreeMiles>0</TotalFreeMiles>
+<PerMileAmount>0.00</PerMileAmount>
+<LateCharge>0.00</LateCharge>
+<Surcharge>5.8900</Surcharge>
+<Taxes>
+<Tax1Amount>287.53</Tax1Amount>
+<Tax1Rate>0.015</Tax1Rate>
+<Tax1Desc>FEDERAL TAX</Tax1Desc>
+<Tax1Charge>5.03</Tax1Charge>
+<Tax1Type>PERCENT</Tax1Type>
+<Tax2Amount>284.73</Tax2Amount>
+<Tax2Rate>0.025</Tax2Rate>
+<Tax2Desc>STATE TAX</Tax2Desc>
+<Tax2Charge>7.83</Tax2Charge>
+<Tax2Type>PERCENT</Tax2Type>
+<Tax3Amount>247.62</Tax3Amount>
+<Tax3Rate>3.57</Tax3Rate>
+<Tax3Desc>LOCAL TAX</Tax3Desc>
+<Tax3Charge>14.28</Tax3Charge>
+<Tax3Type>DAILY</Tax3Type>
+<Tax4Amount>267.79</Tax4Amount>
+<Tax4Rate>0.045</Tax4Rate>
+<Tax4Desc>AIRPORT FEE</Tax4Desc>
+<Tax4Charge>12.05</Tax4Charge>
+<Tax4Type>PERCENT</Tax4Type>
+<Tax5Amount>261.90</Tax5Amount>
+<Tax5Rate>0.055</Tax5Rate>
+<Tax5Desc>USE FEE</Tax5Desc>
+<Tax5Charge>14.40</Tax5Charge>
+<Tax5Type>PERCENT</Tax5Type>
+</Taxes>
+<DailyExtra>
+<ExtraCode>AF</ExtraCode>
+<ExtraDesc>AIRPORT FEE</ExtraDesc>
+<ExtraAmount>18.78</ExtraAmount>
+<ExtraAutoApply>TRUE</ExtraAutoApply>
+</DailyExtra>
+<DailyExtra>
+<ExtraCode>CODE1</ExtraCode>
+<ExtraDesc>TEST CODE 1</ExtraDesc>
+<ExtraAmount>5.99</ExtraAmount>
+<ExtraAutoApply>TRUE</ExtraAutoApply>
+</DailyExtra>
+<RatePeriod>
+<Hours> 0</Hours>
+<AmtPerHour>0.00</AmtPerHour>
+<Rate1Days>4</Rate1Days>
+<Rate1PerDay>58.69</Rate1PerDay>
+<Rate2Days>0</Rate2Days>
+<Rate2PerDay>58.69</Rate2PerDay>
+<Weekends>0</Weekends>
+<AmtPerWeekend>0.00</AmtPerWeekend>
+<Weeks>0</Weeks>
+<AmtPerWeek>0.00</AmtPerWeek>
+<Months>0</Months>
+<AmtPerMonth>0.00</AmtPerMonth>
+</RatePeriod>
+<CardRequired>FALSE</CardRequired>
+<CurrencyCode>USD</CurrencyCode>
+</Payload>
+</TRNXML>
+</PRE>

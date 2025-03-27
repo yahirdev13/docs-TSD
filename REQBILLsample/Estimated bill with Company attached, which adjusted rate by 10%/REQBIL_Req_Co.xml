@@ -1,0 +1,28 @@
+<TRNXML Version="1.0.0">
+<Dategmtime TimeZone="UTC">08062014 04:23 PM</Dategmtime>
+<Sender>
+<SenderID>TSD01</SenderID>
+</Sender>
+<Recipient>
+<RecipientID>TRN</RecipientID>
+</Recipient>
+<TradingPartner>
+<TradingPartnerCode>WEB01</TradingPartnerCode>
+</TradingPartner>
+<Customer>
+<CustomerNumber>TEST1</CustomerNumber>
+<Passcode>TEST1</Passcode>
+</Customer>
+<Message>
+<MessageID>REQBIL</MessageID>
+<MessageDesc>Request Billing</MessageDesc>
+</Message>
+<PayLoad>
+<RentalLocationID>BOS</RentalLocationID>
+<ReturnLocationID>BOS</ReturnLocationID>
+<PickupDateTime>12172015 11:00 AM</PickupDateTime>
+<ReturnDateTime>12212015 11:00 AM</ReturnDateTime>
+<RateID>1151664</RateID>
+<CompanyNumber>BOBCOMP</CompanyNumber>
+</PayLoad>
+</TRNXML>
