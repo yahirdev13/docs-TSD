@@ -1,0 +1,126 @@
+<PRE><TRNXML Version = "1.0.0">
+<DateTimeStamp TimeZone="ET">12/21/2015 17:29:24</DateTimeStamp>
+<Sender><SenderID>TRN</SenderID><SenderName>Transportation Reservation System,Inc.</SenderName></Sender>
+<Recipient><RecipientID>TSD01</RecipientID><RecipientName></RecipientName></Recipient>
+<TradingPartner><TradingPartnerCode>WEB01</TradingPartnerCode><TradingPartnerName></TradingPartnerName></TradingPartner>
+<Customer><CustomerNumber>TEST1</CustomerNumber><CustomerName></CustomerName>
+</Customer>
+<Message>
+<MessageID>RSPRAT</MessageID>
+<MessageDescription>Respond With Rates</MessageDescription>
+<PickupBusinessHours>0000-2130,</PickupBusinessHours>
+<ReturnBusinessHours>0000-2130,</ReturnBusinessHours>
+</Message>
+<Payload>
+<RateProduct>
+<RateVendor>TEST1</RateVendor>
+<RateID>1151656</RateID>
+<RentalLocationID>BOS</RentalLocationID>
+<RateCompanyID>FIRS000001</RateCompanyID>
+<RateCompanyName>FIRST COMPANY</RateCompanyName>
+<RateCompanyRackDiscount>-0.07</RateCompanyRackDiscount>
+<BusinessHoursPickup>0000-2130,</BusinessHoursPickup>
+<BusinessHoursReturn>0000-2130,</BusinessHoursReturn>
+<ClassCode>CCAR</ClassCode>
+<SeasonalRate>N</SeasonalRate>
+<Government>N</Government>
+<ClassDesc>Compact 2/4 Door Automatic With AC </ClassDesc>
+<ModelDesc>COMPACT OR SIMILAR</ModelDesc>
+<RateCode>LOR12</RateCode>
+<CH>H</CH>
+<RateStartDate>03/03/2014</RateStartDate>
+<RateEndDate>12/31/2099</RateEndDate>
+<RateDescription>LOR12</RateDescription>
+<RatePlan>DAILY</RatePlan>
+<MileageUnit>MI</MileageUnit>
+<CurrencyCode>USD</CurrencyCode>
+<RateAmount>51.15</RateAmount>
+<StrickenRateAmount>55.00</StrickenRateAmount>
+<FreeMiles>0</FreeMiles>
+<PerMileAmount>0.00</PerMileAmount>
+<ExtraDayRate>51.15</ExtraDayRate>
+<ExtraDayFreeMiles>0</ExtraDayFreeMiles>
+<MaxTime>1</MaxTime>
+<MinTime>1</MinTime>
+<NextTierRate>0.00</NextTierRate>
+<NextTierFree>0</NextTierFree>
+<PerHourCharge>17.05</PerHourCharge>
+<CardRequired>False</CardRequired>
+<ClassImageURL>carimages/CCAR.jpg</ClassImageURL>
+<ClassImageURL2>carimages/CCAR.jpg</ClassImageURL2>
+<ClassNotes>this is a quoted response.</ClassNotes>
+<RateIncludes></RateIncludes>
+<TotalPricing>
+<RentalDays>1</RentalDays>
+<RateCharge>51.15</RateCharge>
+<RatePlusLate>51.15</RatePlusLate>
+<TotalCharges>79.60</TotalCharges>
+<TotalTaxes>12.48</TotalTaxes>
+<TotalExtras>10.08</TotalExtras>
+<TotalFreeMiles>0</TotalFreeMiles>
+<PerMileAmount>0.00</PerMileAmount>
+<LateCharge>0.00</LateCharge>
+<Surcharge>5.8900</Surcharge>
+<Taxes>
+<Tax1Amount>72.48</Tax1Amount>
+<Tax1Rate>0.015</Tax1Rate>
+<Tax1Desc>FEDERAL TAX</Tax1Desc>
+<Tax1Charge>1.09</Tax1Charge>
+<Tax1Type>PERCENT</Tax1Type>
+<Tax2Amount>71.78</Tax2Amount>
+<Tax2Rate>0.025</Tax2Rate>
+<Tax2Desc>STATE TAX</Tax2Desc>
+<Tax2Charge>1.79</Tax2Charge>
+<Tax2Type>PERCENT</Tax2Type>
+<Tax3Amount>54.03</Tax3Amount>
+<Tax3Rate>3.57</Tax3Rate>
+<Tax3Desc>LOCAL TAX</Tax3Desc>
+<Tax3Charge>3.57</Tax3Charge>
+<Tax3Type>DAILY</Tax3Type>
+<Tax4Amount>63.49</Tax4Amount>
+<Tax4Rate>0.045</Tax4Rate>
+<Tax4Desc>AIRPORT FEE</Tax4Desc>
+<Tax4Charge>2.86</Tax4Charge>
+<Tax4Type>PERCENT</Tax4Type>
+<Tax5Amount>57.60</Tax5Amount>
+<Tax5Rate>0.055</Tax5Rate>
+<Tax5Desc>USE FEE</Tax5Desc>
+<Tax5Charge>3.17</Tax5Charge>
+<Tax5Type>PERCENT</Tax5Type>
+</Taxes>
+<DailyExtra>
+<ExtraCode>AF</ExtraCode>
+<ExtraDesc>AIRPORT FEE</ExtraDesc>
+<ExtraAmount>4.09</ExtraAmount>
+<ExtraAutoApply>TRUE</ExtraAutoApply>
+</DailyExtra>
+<DailyExtra>
+<ExtraCode>CODE1</ExtraCode>
+<ExtraDesc>TEST CODE 1</ExtraDesc>
+<ExtraAmount>5.99</ExtraAmount>
+<ExtraAutoApply>TRUE</ExtraAutoApply>
+</DailyExtra>
+<RatePeriod>
+<Hours> 0</Hours>
+<AmtPerHour>0.00</AmtPerHour>
+<Rate1Days>1</Rate1Days>
+<Rate1PerDay>51.15</Rate1PerDay>
+<Rate1Free>0</Rate1Free>
+<Rate2Days>0</Rate2Days>
+<Rate2PerDay>51.15</Rate2PerDay>
+<Rate2Free>0</Rate2Free>
+<Rate3Days>0</Rate3Days>
+<Rate3PerDay>51.15</Rate3PerDay>
+<Rate3Free>0</Rate3Free>
+<Weekends>0</Weekends>
+<AmtPerWeekend>0.00</AmtPerWeekend>
+<Weeks>0</Weeks>
+<AmtPerWeek>0.00</AmtPerWeek>
+<Months>0</Months>
+<AmtPerMonth>0.00</AmtPerMonth>
+</RatePeriod>
+</TotalPricing>
+</RateProduct>
+</Payload>
+</TRNXML>
+</PRE>

@@ -1,0 +1,29 @@
+<TRNXML Version="1.0.0">
+<Dategmtime TimeZone="ET">06/27/2010 03:55:24</Dategmtime>
+<Sender>
+<SenderID>TSD01</SenderID>
+</Sender>
+<Recipient>
+<RecipientID>TRN</RecipientID>
+</Recipient>
+<TradingPartner>
+<TradingPartnerCode>WEB01</TradingPartnerCode>
+</TradingPartner>
+<Customer>
+<CustomerNumber>TEST1</CustomerNumber>
+<Passcode>TEST1</Passcode>
+</Customer>
+<Message>
+<MessageID>REQRAT</MessageID>
+<MessageDesc/>
+</Message>
+<PayLoad>
+<RentalLocationID>BOS</RentalLocationID>
+<ReturnLocationID>BOS</ReturnLocationID>
+<PickupDateTime>12082015 11:00 AM</PickupDateTime>
+<ReturnDateTime>12152015 11:00 AM</ReturnDateTime>
+<ClassCode>CCAR</ClassCode>
+<ExtraCode>CDW</ExtraCode>
+<TotalPricing>1</TotalPricing>
+</PayLoad>
+</TRNXML>

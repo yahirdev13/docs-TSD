@@ -1,0 +1,52 @@
+<PRE><TRNXML Version = "1.0.0">
+<DateTimeStamp TimeZone="ET">08/27/2015 13:55:32</DateTimeStamp>
+<Sender><SenderID>TRN</SenderID><SenderName>Transportation Reservation System,Inc.</SenderName></Sender>
+<Recipient><RecipientID>TSD01</RecipientID><RecipientName></RecipientName></Recipient>
+<TradingPartner><TradingPartnerCode>WEB01</TradingPartnerCode><TradingPartnerName></TradingPartnerName></TradingPartner>
+<Customer><CustomerNumber>TEST1</CustomerNumber><CustomerName></CustomerName>
+</Customer>
+<Message>
+<MessageID>RSPRAT</MessageID>
+<MessageDescription>Respond With Rates</MessageDescription>
+<PickupBusinessHours>0000-2130,</PickupBusinessHours>
+<ReturnBusinessHours>0000-2130,</ReturnBusinessHours>
+</Message>
+<Payload>
+<RateProduct>
+<RateVendor>TEST1</RateVendor>
+<RateID>2161627</RateID>
+<RentalLocationID>BOS</RentalLocationID>
+<BusinessHoursPickup>0000-2130,</BusinessHoursPickup>
+<BusinessHoursReturn>0000-2130,</BusinessHoursReturn>
+<ClassCode>CCAR</ClassCode>
+<SeasonalRate>N</SeasonalRate>
+<Government>N</Government>
+<ClassDesc>Compact 2/4 Door Automatic With AC </ClassDesc>
+<ModelDesc>COMPACT OR SIMILAR</ModelDesc>
+<RateCode>LOR5P</RateCode>
+<CH>H</CH>
+<RateStartDate>03/03/2014</RateStartDate>
+<RateEndDate>12/31/2099</RateEndDate>
+<RateDescription>LOR5P</RateDescription>
+<RatePlan>WEEKLY</RatePlan>
+<MileageUnit>MI</MileageUnit>
+<CurrencyCode>USD</CurrencyCode>
+<RateAmount>179.00</RateAmount>
+<FreeMiles>0</FreeMiles>
+<PerMileAmount>0.00</PerMileAmount>
+<ExtraDayRate>55.00</ExtraDayRate>
+<ExtraDayFreeMiles>0</ExtraDayFreeMiles>
+<MaxTime>7</MaxTime>
+<MinTime>7</MinTime>
+<NextTierRate>0.00</NextTierRate>
+<NextTierFree>0</NextTierFree>
+<PerHourCharge>18.33</PerHourCharge>
+<CardRequired>False</CardRequired>
+<ClassImageURL>carimages/CCAR.jpg</ClassImageURL>
+<ClassImageURL2>carimages/CCAR.jpg</ClassImageURL2>
+<ClassNotes>this is a quoted response.</ClassNotes>
+<RateIncludes></RateIncludes>
+</RateProduct>
+</Payload>
+</TRNXML>
+</PRE>
